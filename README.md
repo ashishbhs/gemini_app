@@ -1,3 +1,3 @@
 - pip install streamlit dotenv google-generativeai
-
+- make .env with gemini api key
 - streamlit run qachat.py
