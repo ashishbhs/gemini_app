@@ -1,3 +1,3 @@
-pip install streamlit dotenv google-generativeai
+- pip install streamlit dotenv google-generativeai
 
-streamlit run qachat.py
+- streamlit run qachat.py
