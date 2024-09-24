@@ -26,7 +26,7 @@ if 'chat_history' not in st.session_state:
     st.session_state['chat_history'] = []
 
 input = st.text_input("Input:",key="input")
-submit=st.button("Ask the question")
+submit=st.button("Ask")
 
 if submit and input:
     response = get_gemini_response(input)
